@@ -1,0 +1,54 @@
+{
+    "hash": "d6f9abf74c63285f0a2df9b5b92b5a9e",
+    "content-hash": "a7b8c60b8213e6b8d24c6b23ed3c81c2",
+    "packages": [
+        {
+            "name": "laravel/lumen-framework",
+            "version": "v8.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/lumen-framework.git",
+                "reference": "23c77c7bfb6e9d85bde5afca7a58f0371202f03e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/lumen-framework/zipball/23c77c7bfb6e9d85bde5afca7a58f0371202f03e",
+                "reference": "23c77c7bfb6e9d85bde5afca7a58f0371202f03e",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3|^8.0",
+                "illuminate/support": "^8.0"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Lumen\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "The Laravel Lumen Framework.",
+            "time": "2020-12-18T22:18:48+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "platform": {
+        "php": "7.4.3"
+    }
+}
